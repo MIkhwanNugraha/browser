@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kasan_Adin"
+        style="@style/tulisan_Adin"
+         />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:autoLink="web"
+        android:cursorVisible="true"
+        android:id="@+id/picikan_soto"
+        android:text="Salahuddin the Hero"
+        android:linksClickable="true"
+        android:onClick="picikanSoto"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masjidil Aqsa"
+        android:autoLink="web"
+        android:clickable="true"
+        android:id="@+id/picikan_sup"
+        android:onClick="picikanSup"
+
+        />
+
+</LinearLayout>
